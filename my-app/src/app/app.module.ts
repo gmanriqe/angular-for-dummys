@@ -16,14 +16,12 @@ import { RouterModule } from '@angular/router';
 
 /* configuracion de HTTP */
 import { HttpClientModule } from '@angular/common/http';
-import { ComponentNameComponent } from './services/component-name/component-name.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
-    AddComponent,
-    ComponentNameComponent
+    AddComponent
   ],
   imports: [
     BrowserModule,
