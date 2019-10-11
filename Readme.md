@@ -15,6 +15,7 @@
 - Confirmar: $ng --help (comandos de ayuda)
 
 ## Plugin Visual Studio Code
+
 Plugins recomendados para los siguientes editores:
 
 - Angular 2 TypeScript Emmet
@@ -32,3 +33,13 @@ Plugins recomendados para los siguientes editores:
 - TSLint
 - TypeScript Hero
 - TypeScript Importer
+
+## Creacion de nuestro primer proyecto
+
+1. ng new my-app
+2. cd my-app
+3. ng serve | ng serve -o
+
+## Creación de un componente
+
+1. $ng g component nombre-componente
