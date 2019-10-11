@@ -12,7 +12,7 @@
 
 4. Angular CLI
 - Instalar como npm: $npm install -g @angular/cli (Ultima 6.0 o superior)
-- Confirmar: $ng --hel (comandos de ayuda)
+- Confirmar: $ng --help (comandos de ayuda)
 
 ## Plugin Visual Studio Code
 Plugins recomendados para los siguientes editores:
