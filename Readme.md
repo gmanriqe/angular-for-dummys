@@ -1,5 +1,9 @@
 # Angular
 
+- Angular es un framework de desarrollo para JavaScript creado por **Google**. La finalidad de Angular es facilitarnos el desarrollo de aplicaciones web SPA y además darnos herramientas para trabajar con los elementos de una web de una manera más sencilla y optima.
+
+- Otro propósito que tiene Angular es la separación completa entre el Frontend y el Backend en una aplicación web. Nos permite a su vez poder trabajar de manera muy facil con servicios
+
 ## Entorno de trabajo
 
 1.NodeJS: https://nodejs.org/es/ (Version 10 o superior | que sea la estable)
