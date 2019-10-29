@@ -14,6 +14,7 @@
 
 - Instalación es por instalador
 - Confirmar ➡️$npm -v
+- Junto con Node se te instala otro programita, Npm, que te facilita la vida para instalar, desinstalar y actualizar los módulos de Node. En general, cuando trabajas con Angular se usan muchos módulos de Node, y Npm te ayuda un montón para no volverte loco bajando y actualizando estos módulos.
 
 2.Google Chrome: https://www.google.es/chrome/browser/desktop/
 
@@ -26,6 +27,7 @@
 
 - Instalar como npm ➡️ $npm install -g @angular/cli (Ultima 6.0 o superior)
 - Confirmar ➡️$ng --help (comandos de ayuda)
+- Angular-cli es un módulo de Node,  y ¿para qué sirve? para crearte aplicaciones angular de forma muy rápida. Es como si quisieras hacer una casa pero sin tener idea de albañilería, te ponés a hablar con el arquitecto, le vas diciendo, hacéme 2 habitaciones de 6mts x 5mts, con un baño y 2 puertas. Con Angular-cli pasa algo similar, le indicás (mediante lineas de comando) como querés hacer tu aplicación.
 
 ## Plugin Visual Studio Code
 
