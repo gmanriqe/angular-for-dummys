@@ -8,6 +8,10 @@
 
 ![3-casos-data-binding](https://gustavodohara.com/blogangular/wp-content/uploads/2018/03/3-casos-data-binding.png)
 
+## ¿Que es es Data Binding?
+
+- El two-ways biding [()] quiere decir: el mecanismo de actualizar la vista y el modelo al mismo tiempo
+
 ## Entorno de trabajo
 
 1.NodeJS: https://nodejs.org/es/ (Version 10 o superior | que sea la estable)
