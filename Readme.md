@@ -11,6 +11,9 @@
 ## ¿Que es es Data Binding?
 
 - El two-ways biding [()] quiere decir: el mecanismo de actualizar la vista y el modelo al mismo tiempo
+- (banana) : de la vista al modelo
+- [box] : del modelo a la vista
+- ⚠️ Atención: La directiva ngModel viene dentro del módulo FormsModule que hay que importar explícitamente
 
 ## Entorno de trabajo
 
@@ -131,3 +134,29 @@ Plugins recomendados para los siguientes editores:
 - **¿Para qué se usa el two-way bindings?** ➡️ para enviar datos del DOM al Componente y del Componente al DOM, por eso se llama two-way binding 😁
 - Si el usuario teclea algo, el Controlador será notificado y podrá efectuar una acción con eso. Y por otro lado, si el Controlador modifica la variable nombre (por ejemplo borrando los datos) el DOM se actualizará automáticamente. ¡Y nosotros no vamos a hacer nada!
 - ⚠️Ojo, para que funcione la directiva NgModule hay que importar el módulo FormsModule.
+
+**Las tuberías |**
+
+- Si queremos que la presentación del dato sea distinta a su valor real, podemos usar funciones de transformación especiales. Se llaman tuberías o pipes y se indican mediante el carácter |.
+- El framework nos provee de casos básicos como uppercase, lowercase, date, number.... También dispones de un mecanismo para crear tus propios pipes.
+
+**Los atributos evaluados []**
+- En Html disponemos de atributos para asignar valores a propiedades de
+los elementos. Esos atributos reciben los valores como constantes. Pero,
+si se encierran entre corchetes se convierten en un evaluador de
+expresiones y puede recibir una variable o cualquier otra expresión
+
+- Como por ejemplo usando una clase css cuyo valor cambia en tiempo de ejecución. O para deshabilitar un elemento dinámicamente
+
+**Repetitivas *ngFor**
+
+- Una situación que nos encontramos una y otra vez es la de las repeticiones. Listas de datos, tablas o grupos de opciones son ejemplos claros. Hay una directiva en Angular para esa situación, la *ngFor="let iterador of array". La directiva *ngFor forma parte del grupo de directivas estructurales, porque modifica la estructura del DOM, en este caso insertando múltiples nodos hijos a un elemento dado
+- <option *ngFor="let wkSt of workStatuses" [value]="wkSt.id">
+
+**Condicionales *ngIf****
+- La directiva estructural más utilizada es la *ngIf, la cual consigue que
+un elemento se incluya o se elimine en el DOM en función de los datos del modelo
+- <section *ngIf="contact.workStatus=='3'">
+- <section *ngIf="contact.workStatus=='3'; else education">
+
+**Identificadores con hashtag**
